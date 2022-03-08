@@ -1,0 +1,32 @@
+.MainArea{
+    display: flex;
+    justify-content: space-between;
+}
+.Sidebar{
+    display: grid;
+    width: 17%;
+    height: 60rem;
+    background-color: tomato;
+}
+.Sidebar>div{
+    height: auto;
+}
+.Home{
+    border-bottom:  1px solid black;
+}
+.Quick_Icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 1rem;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    background-color: turquoise;
+    width: 83%;
+    height: 60rem;
+}
