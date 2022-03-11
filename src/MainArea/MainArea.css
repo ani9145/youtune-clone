@@ -6,7 +6,7 @@
     display: grid;
     width: 17%;
     height: 60rem;
-    background-color: tomato;
+    background-color: white;
 }
 .Sidebar>div{
     height: auto;
@@ -18,15 +18,34 @@
     display: flex;
     align-items: center;
     font-size: 1.7rem;
-    height: 1rem;
+    padding: 10px;
+    
 }
-
-
-
-.main{
+.Main{
+    display: grid;
+   width: 83%;
+}
+.Main > div{
+    margin: 8px 2px;
+}
+.Videos{
     display: flex;
-    justify-content: flex-start;
-    background-color: turquoise;
-    width: 83%;
-    height: 60rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video{
+    justify-content: space-around;
+    height: 274px;
+    left: 0;
+    width: 250px;
+    margin: 8px;
+}
+.Logo{
+    display: flex;
+}
+.Logo > div{
+    padding: 0 12px; 
+}
+.Library{
+    border-bottom:  1px solid black;
 }
